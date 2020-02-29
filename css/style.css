@@ -1,0 +1,66 @@
+.wculist
+{
+    
+}
+.wculist li
+{
+    width: 200px;
+    list-style: none;
+    background-color: lightcoral;
+    float: left;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 100px;
+    
+}
+
+.wctbld
+{
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.wctbl
+{
+ width: 800px;   
+ height: 300px;
+ text-align: center;
+ 
+ border-collapse: separate;
+ border-spacing: 50px 50px;
+ color:black;
+}
+.wctbl td
+{
+    background-color: lightgrey;
+    border-radius: 100px;
+}
+.abt img
+{
+    float: right;
+    border-radius: 50px;
+}
+.servicediv
+{
+    margin-left: 180px;
+    margin-right: 150px;
+}
+.serviceslist li
+{
+    list-style:none ;
+    float: left;
+}
+.servicebx
+{
+    width:400px;
+    height: 250px;
+    border: 2px double lightblue;
+    border-radius: 30px;
+    margin: 10px;
+}
+.servicebx img
+{
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+}

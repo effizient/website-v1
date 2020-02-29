@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MIST | Mobile Intelligent Spraying Technologies</title>
+  <link rel="canonical" href="https://trymist.com/blog" />
+
+  <!-- Behavioral Meta Data -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!-- Core Meta Data -->
+  <meta name="author" content="MIST">
+  <meta name="description" content="Mobile Intelligent Spraying Technologies. We envision a world where painting is fast, inexpensive, efficient, and safe.">
+  <meta name="keywords" content="mechatronics,software,engineer,developer,html5,css3,javascript,python,design,java,c++,robotics">
+
+  <!-- Open Graph Meta Data -->
+  <meta property="og:title" content="MIST | Mobile Intelligent Spraying Technologies">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://trymist.com/img/thumbnail.png">
+  <meta property="og:url" content="https://trymist.com">
+  <meta property="og:description" content="Mobile Intelligent Spraying Technologies. We envision a world where painting is fast, inexpensive, efficient, and safe.">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
+  <link rel="manifest" href="/img/icons/manifest.json">
+  <link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/img/icons/favicon.ico">
+  <meta name="msapplication-config" content="/img/icons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111259808-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111259808-1');
+  </script>
+
+  <!-- Preload CSS -->
+  <style type="text/css">
+    .preloader,.progress,nav,section{display:block}@font-face{font-family:Montserrat;font-style:normal;font-weight:400;src:local('Montserrat-Regular'),url(https://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')}@font-face{font-family:Montserrat;font-style:normal;font-weight:700;src:local('Montserrat-Bold'),url(https://fonts.gstatic.com/s/montserrat/v7/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype')}@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local('Open Sans Light'),local('OpenSans-Light'),url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTYnF5uFdDttMLvmWuJdhhgs.ttf) format('truetype')}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),local('OpenSans-Bold'),url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype')}.clear{clear:both}.main-title ul{list-style:none}#navbar li a,.main-title a,.scrollup{text-decoration:none}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#222}a{background-color:transparent}.text-outline{text-shadow:1px 1px 3px #000,1px -1px 3px #000,-1px 1px 3px #000,-1px -1px 3px #000}.preloader{position:fixed;width:100%;height:100%;z-index:9999;background:#fff;text-align:center}.loading,.progress{width:100px;position:absolute;overflow:hidden}.loading{top:50%;margin-top:-12px;left:50%;margin-left:-50px;height:24px}.progress{bottom:0;height:1px;left:-102px;background-color:#00d9ec;-webkit-animation:loader-anim 1s 0s infinite cubic-bezier(.785,.135,.15,.86);animation:loader-anim 1s 0s infinite cubic-bezier(.785,.135,.15,.86)}h3{margin:0;font-family:Montserrat,arial,sans-serif;font-size:14px;font-weight:700;line-height:1em;letter-spacing:.2em;color:#161a1b}@-webkit-keyframes loader-anim{0%{left:-102px}100%{left:102px}}@keyframes loader-anim{0%{left:-102px}100%{left:102px}}body{font-size:1em;line-height:1.4}body:after{display:none;content:url(/img/check.png)}#home div,.video-mask,body,html{width:100%;height:100%}body,html{padding:0;background:#000;margin:0}.jump-menu{display:none;position:absolute;top:0;right:0}#home div,.main-title ul{position:relative}.main-title,.video-mask,.video-volume{position:absolute}.video-mask{top:0;left:0;z-index:-10;background-color:#000}.video-volume{bottom:80px;margin-left:-12px;left:50%;width:25px;height:25px;background:url(/img/audio-mute.png) no-repeat}.bouncing-arrow{margin-left:-16px;left:50%;background:url(/img/arrow-down.png) no-repeat;-webkit-animation:bounce 1s infinite;animation:bounce 1s infinite;width:32px!important;height:32px!important}@-webkit-keyframes bounce{0%{bottom:45px}25%,75%{bottom:55px}50%{bottom:60px}100%{bottom:40px}}.welcome{text-transform:none;font-size:26px;letter-spacing:3px}#home{height:100%}.main-title .second-title{font-size:16px;font-weight:400;font-family:'Open Sans',sans-serif!important;width:680px;text-transform:none;margin:auto}.continue-button{width:135px;margin:40px auto 0;color:#fff;font-size:14px;font-weight:700;font-family:'Open Sans',sans-serif;padding:11px 25px;border:2px solid rgb(0,130,255);border-radius:10px;letter-spacing:2px}.main-title{color:#fff;height:385px;overflow:hidden;top:50%;margin-top:-176px;width:100%;text-align:center;z-index:10}.main-title .spacer{width:60px;margin:30px auto 40px}.title-container{width:90%;margin:0 auto}.main-title ul{font-weight:300;text-align:center;padding:0;margin:10px 0 0;height:100px;font-size:100px;font-family:"Brandon Grot W01 Bold",Montserrat,sans-serif,"Helvetica Neue",Helvetica,Arial;letter-spacing:5px;z-index:100}#navbar,.scrollup{font-family:'Open Sans',sans-serif}.main-title ul li{width:100%;text-align:center;position:absolute;opacity:0;top:40px;line-height:100px}.main-title li.current-title{opacity:1;top:0}.spacer{width:100px;height:2px;margin:auto}#navbar,#navbar>a,.scrollup{display:none}.scrollup{z-index:500;width:50px;height:50px;border-radius:50%;opacity:.8;position:fixed;bottom:50px;right:40px;background:rgb(0,130,255);color:#fff;line-height:55px;font-size:25px;text-align:center}#navbar li{position:relative}#navbar{width:60em;font-weight:400;position:absolute;top:25%;left:50%;margin-left:-30em}#navbar li a{color:#999;display:block}#navbar>ul{height:3.75em;background-color:#f5f5f5;padding:0}#navbar>ul>li{width:25%;height:100%;float:left}#navbar>ul>li>a{height:100%;font-size:1.5em;line-height:2.5em;text-align:center}#navbar>ul>li:not(:last-child)>a{border-right:1px solid rgb(0,130,255)}@media only screen and (max-width:62.5em){#navbar{width:100%;margin:0}}#mobile-background{height:100%;display:none;background-size:cover}.green .spacer{background:rgb(0,130,255)}@media only screen and (min-width:976px) and (max-width:1280px){.main-title ul{font-size:70px}.main-title{font-size:60px;height:352px;top:50%;margin-top:-176px}.main-title .spacer{margin:5px auto 25px}}@media only screen and (max-width:975px){#navbar,html{font-size:75%}#navbar,#navbar>a{position:relative}#navbar,#navbar:not(:target)>a:first-of-type,.jump-menu{display:block}.main-title{height:350px;top:50%;margin-top:-175px}.continue-button{margin-top:15px}#navbar{top:auto;left:auto}#navbar>a{width:50px;height:75px;text-align:left;text-indent:-9999px;background:url(/img/menu-icon-blk.png) no-repeat rgba(0,0,0,0);float:right}#navbar>ul{height:auto;display:none;position:absolute;left:0;right:0;margin-top:75px}#navbar>ul>li{width:100%;float:none}#navbar>ul>li>a{height:auto;padding:0 .833em;border-right:none;border-bottom:1px dotted rgb(0,130,255)}}@media only screen and (min-width:796px) and (max-width:974px){.main-title ul{font-size:60px}.main-title{font-size:50px}.main-title span{top:100px}}@media only screen and (max-width:795px){.main-title ul{margin-top:0;height:80px;font-size:35px}.main-title .spacer{margin:20px auto}}@media only screen and (min-width:480px) and (max-width:795px){.main-title .second-title{width:345px}.main-title{font-size:25px}.main-title span{top:70px}}@media only screen and (max-width:479px){.main-title ul li{line-height:50px}.main-title .second-title{font-size:14px;width:90%}.main-title{height:300px;top:50%;margin-top:-150px;font-size:30px}.welcome{font-size:13px}.main-title span{top:100px}.scrollup{display:none!important}.bouncing-arrow{display:none}}@media only screen and (max-height:600px){.video-volume{bottom:50px}}@media only screen and (max-height:500px){.video-volume{bottom:10px}.bouncing-arrow{display:none}}
+  </style>
+</head>
+
+<body class="green">
+  <div class="preloader">
+    <div class="loading">
+      <h3>LOADING...</h3>
+      <span class="progress"></span>
+    </div>
+  </div>
+  <header class="header">
+    <a href="#blog">
+      <div class="logo">
+        <span><span></span></span>MIST
+      </div>
+    </a>
+    <nav id="navbar">
+      <a class="jump-menu"></a>
+      <ul id="mobile-nav">
+        <li class="mobile-current"><a href="/">HOME</a></li>
+        <li><a href="#blog">BLOG</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <nav class="menu">
+      <ul id="nav">
+        <li class="current"><a href="/">HOME</a></li>
+        <li><a href="#blog">BLOG</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <article id="blog" class="content dark">
+    <header class="title one hideme fade">BLOG</header>
+    <div class="spacer"></div>
+    <div class="title two hideme fade">Find out about our progress by scrolling through our blog updates below!</div>
+    <div id="work" class="work-container">
+      <div id="update-24" class="work-exp hideme">
+        <div class="tag-project">UPDATE 24</div>
+        <div class="title-project">PROTOTYPE COMPLETE</div>
+        <div class="project-date">APR 27, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            We have successfully completed the prototype of our product and presented it at the Mechatronics Engineering Symposium and at the Mechatronics Convention at the University of Waterloo. It was a great event with many people showing tremendous interest in our robot.
+          </p>
+          <p>
+            We are proud to announce that we won the Best Overall Technical Content award among all other projects being presented. Here is the video that summarizes our journey through the past eight months. It makes us proud to see how we started from a wooden prototype and finished with a polished and functional autonomous robot.
+          </p>
+          <h2>Video</h2>
+          <p>
+            <iframe width="100%" height="500" src="//www.youtube.com/embed/8FXAK4NWKn4" frameborder="0" allowfullscreen></iframe>
+          </p>
+        </div>
+      </div>
+      <div id="update-23" class="work-exp hideme">
+        <div class="tag-project">UPDATE 23</div>
+        <div class="title-project">ANNOUNCING MAVERICK</div>
+        <div class="project-date">MAR 23, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            Today, we are very excited to present to you our newest product, Maverick. Maverick is a fully-functional autonomous wall-painting robot equipped with all the latest sensors and autonomous technologies. We are featuring live demos today at the Davis Center between 1 and 5 PM. Feel free to stop by for a demo and ask us questions! Without further ado, check out our reveal video below.
+          </p>
+          <h2>Video</h2>
+          <p>
+            <iframe width="100%" height="500" src="//www.youtube.com/embed/G8-mO_p3AN0" frameborder="0" allowfullscreen></iframe>
+          </p>
+        </div>
+      </div>
+      <div id="update-22" class="work-exp hideme">
+        <div class="tag-project">UPDATE 22</div>
+        <div class="title-project">FINAL TOUCH-UPS TO ROBOT</div>
+        <div class="project-date">MAR 22, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            Tomorrow is the Mechatronics Engineering Symposium event at the University of Waterloo! We've been working very hard over the past months to get our robot ready for tomorrow. This symposium is our opportunity to showcase our final prototype. We look forward to presenting to professors, industry specialists, investors, and fellow colleagues. The event will be held inside the Davis Center lobby between 1:00 PM and 5:00 PM EST.
+          </p>
+          <p>
+            Over the past few weeks we've assembled our robot, wired our electronics, and implemented autonomous software. Today we finalized our wiring, fastened on our last rivets, and worked out all the bugs in our software code. The final robot can be seen below.
+          </p>
+          <h2>Photos</h2>
+          <p class="blog-photo-section">
+            <img class="blog-photo" src="img/blog/maverick.jpg" alt="Image not found. Please try reloading.">
+          </p>
+        </div>
+      </div>
+      <div id="update-21" class="work-exp hideme">
+        <div class="tag-project">UPDATE 21</div>
+        <div class="title-project">ELEVATOR LIFT CONTROLLED SEQUENCE</div>
+        <div class="project-date">MAR 17, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            Today, we got our elevator’s motion under control. We have two limit switches and an encoder to create the desired spraying motion. The two limit switches are used to home the two stages of the elevator, while the encoder manages the position of the head throughout the lift.
+          </p>
+          <p>
+            We are using the Motion Magic framework to control the position of the lift using a PF controller. As of right now, we are able to control the position within 0.3% error without any overshoot. We will be tuning this controller with integral and differential gains as needed when we begin testing with a loaded paint canister. It will be interesting to test the robustness of the controller as the weight of the payload decreases over time.
+          </p>
+          <h2>Video</h2>
+          <p>
+            <iframe width="100%" height="500" src="//www.youtube.com/embed/mYQ36sYBbcc" frameborder="0" allowfullscreen></iframe>
+          </p>
+        </div>
+      </div>
+      <div id="update-20" class="work-exp hideme">
+        <div class="tag-project">UPDATE 20</div>
+        <div class="title-project">WE HAVE SOME AUTONOMY</div>
+        <div class="project-date">MAR 15, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            Our team has been hard at work to get autonomous navigation working. We are able to now generate waypoints given a map of a room and traverse them. The waypoints are automatically generated to keep a certain distance from the wall and to maintain a particular orientation needed to paint the wall. The generated waypoints are set to a predetermined distance from one another, which will be tuned based on the overlap needed to produce good painting results. As of right now, we are able to traverse straight walls and are working on implementing code to be able to turn corners. We are planning to turn corners in multiple steps as it will allow for the desirable levels of paint coverage.
+          </p>
+          <p>
+            Under the hood, we are using the <a target="_blank" href="http://wiki.ros.org/amcl">amcl</a> ROS node to localize our robot in the environment. It uses lasers scans from our LIDAR, the map of the environment, the initial pose estimate of the robot, and a particle filter to determine the state of the robot. Next, we will look into integrating elevator lift movement and paint spraying into the autonomous motions of the robot.
+          </p>
+          <h2>Video</h2>
+          <p>
+            <iframe width="100%" height="500" src="//www.youtube.com/embed/IuqidAZZ7M8" frameborder="0" allowfullscreen></iframe>
+          </p>
+        </div>
+      </div>
+      <div id="update-19" class="work-exp hideme">
+        <div class="tag-project">UPDATE 19</div>
+        <div class="title-project">ELEVATOR LIFT IN ACTION</div>
+        <div class="project-date">MAR 13, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            Last week, we started assembling our lift mechanism. However, it has taken a long time to get it to a stage where we are confident to power it up using a motor.
+          </p>
+          <p>
+            Over the course of the assembly, we ran into friction issues caused by the power coat, rope tensions, and unexpected wobble on the motor. We resolved the friction issues by manually running the elevator with a wrench until the paint chipped away in the areas of friction. The rope tension issues were resolved by trying different knots, such as the Bowline knot and the Double Fisherman’s knot, until we were able to successfully tension the rope and have zero knot slippage issues. We found that the Double Fisherman is not only easier to tie, but that it also provides less chances of the knot slipping. The wobble in the motor was fixed by reassembling the gearbox and motor combo, as it was originally assembled incorrectly.
+          </p>
+          <p>
+            Having solved these issues, we were able to run the elevator using a motor as shown in the video below. We will be implementing controllers to move the elevator up and down very soon and will keep you updated.
+          </p>
+          <h2>Video</h2>
+          <p>
+            <iframe width="100%" height="500" src="//www.youtube.com/embed/Ih6q0YZZ1j0" frameborder="0" allowfullscreen></iframe>
+          </p>
+        </div>
+      </div>
+      <div id="update-18" class="work-exp hideme">
+        <div class="tag-project">UPDATE 18</div>
+        <div class="title-project">WE HAVE TWO-WAY COMMUNICATION</div>
+        <div class="project-date">MAR 10, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            A few weeks ago we got serial communication working between the Jetson TX1 and the Hero Development board using FTDI serial communication chips. However, we hadn’t fully tested two-way communication for our application. We wanted to transfer IMU and encoder data from the Hero board to the Jetson while at the same time transferring velocity commands from the Jetson to the Hero. When we tried our code for this application, we realized that there was a significant lag between when the data was sent and when it was received. We never had these delays when testing one-way communication.
+          </p>
+          <p>
+            After trying a few methods, we decided to install two FTDI chips, each of which would be responsible for one-way communication. While this did speed up the communication, there was still a slight delay. As such we decided to multi-thread our code on the Hero and run two nodes on the Jetson. This resulted in significant performance gains, allowing for accurate actuation and feedback data transfers.
+          </p>
+        </div>
+      </div>
+      <div id="update-17" class="work-exp hideme">
+        <div class="tag-project">UPDATE 17</div>
+        <div class="title-project">DRIVETRAIN IS ALIVE</div>
+        <div class="project-date">MAR 03, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            Today, we finally saw our robot moving for the first time. We used an inverse motion model for the 3-wheeled omni-wheel robot to convert the velocities in x and y directions, as well as to covert the angular velocity to wheel velocities of the robot.
+          </p>
+          <p>
+            We are using the <a target="_blank" href="https://www.bestbuy.ca/en-ca/product/logitech-logitech-gamepad-f310-controller-940-000110/10153594.aspx">Logitech Gamepad F310 Controller</a> to control our robot. We have configured the R2 button on the controller to be a safety switch, which disables all motors when not held. We are using the left analog stick to perform forward/reverse and side-to-side motion and the right analog stick to perform rotational motion. We aim to have the robot moving autonomously soon!
+          </p>
+          <h2>Video</h2>
+          <p>
+            <iframe width="100%" height="500" src="//www.youtube.com/embed/xHlvP-JXLZ8" frameborder="0" allowfullscreen></iframe>
+          </p>
+        </div>
+      </div>
+      <div id="update-16" class="work-exp hideme">
+        <div class="tag-project">UPDATE 16</div>
+        <div class="title-project">ELECTRONICS WIRING UPDATE</div>
+        <div class="project-date">FEB 23, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            We are making progress in getting all of the electronics wired. We have completed wiring all of our talons, three of the drivetrain motors, and the battery circuit. We are using Powerpole connectors provided by our sponsor, <a target="_blank" href="https://www.andersonpower.com/us/en/index.aspx">Anderson Power Products</a>, to connect the various components in our robot. This makes it easy to swap out any components that malfunction.
+          </p>
+          <h2>Photos</h2>
+          <p class="blog-photo-section">
+            <img class="blog-photo" src="img/blog/electronics-update-1.jpg" alt="Image not found. Please try reloading.">
+          </p>
+        </div>
+      </div>
+      <div id="update-15" class="work-exp hideme">
+        <div class="tag-project">UPDATE 15</div>
+        <div class="title-project">SLAMTEC RPLIDAR A2-M8 PROTOTYPING</div>
+        <div class="project-date">FEB 22, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            Today, we made good progress with our autonomous driving software stack. We got our <a target="_blank" href="https://www.slamtec.com/en/Lidar/A2">SLAMTEC RPLIDAR A2-M8</a> to map its environment neatly and accurately. We used <a target="_blank" href="http://wiki.ros.org/hector_slam">Hector SLAM</a> to map the hallways inside Engineering 2 at the University of Waterloo. Hector SLAM is an approach to mapping that can be used independent of odometry. It leverages scan matching - a process of aligning laser scans with each other or with an existing map. Hector SLAM optimizes the alignment of the incoming laser beam endpoints with the map learned so far and is able to leverage the high scan rate of modern LIDARs and the high accuracy of laser scans.
+          </p>
+          <p>
+            In the video below, we mounted our RPLIDAR A2-M8 on a <a target="_blank" href="http://www.turtlebot.com/">TurtleBot</a>, and drove it down a hallway while mapping and localizing using the Hector SLAM algorithm. We see a very clean map with accurate localization despite of no odometry input as a result.
+          </p>
+          <h2>Video</h2>
+          <p>
+            <iframe width="100%" height="500" src="//www.youtube.com/embed/-WkocdmABTI" frameborder="0" allowfullscreen></iframe>
+          </p>
+        </div>
+      </div>
+      <div id="update-14" class="work-exp hideme">
+        <div class="tag-project">UPDATE 14</div>
+        <div class="title-project">DRIVETRAIN GEARBOXES ASSEMBLED</div>
+        <div class="project-date">FEB 17, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            We have finished the assembly of our drivetrain gearboxes as shown in the following photos. We will continue to work on getting the electronics wired, so we can have the drivetrain moving soon.
+          </p>
+          <h2>Photos</h2>
+          <p class="blog-photo-section">
+            <img class="blog-photo" src="img/blog/drivetrain-gearbox-1.jpg" alt="Image not found. Please try reloading.">
+            <img class="blog-photo" src="img/blog/drivetrain-gearbox-2.jpg" alt="Image not found. Please try reloading.">
+          </p>
+        </div>
+      </div>
+      <div id="update-13" class="work-exp hideme">
+        <div class="tag-project">UPDATE 13</div>
+        <div class="title-project">OUR PARTS HAVE BEEN POWDER COATED</div>
+        <div class="project-date">FEB 15, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            This morning, we received an email from our sponsor, <a target="_blank" href="http://www.warnercustom.com/">Warner Custom Coating</a>, telling us that our components were ready. We are happy to see how good the parts turned out with the blue/black colour scheme. Next, we will be finishing assembly and hope to have the robot moving soon.
+          </p>
+          <h2>Photos</h2>
+          <p class="blog-photo-section">
+            <img class="blog-photo" src="img/blog/post-powder-coat-1.jpg" alt="Image not found. Please try reloading.">
+            <img class="blog-photo" src="img/blog/post-powder-coat-2.jpg" alt="Image not found. Please try reloading.">
+          </p>
+        </div>
+      </div>
+      <div id="update-12" class="work-exp hideme">
+        <div class="tag-project">UPDATE 12</div>
+        <div class="title-project">TIME FOR SOME POWDER COATING</div>
+        <div class="project-date">FEB 12, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            Having assembled our parts a couple of days ago, we bundled our sub-assemblies by the colour we wanted them powder coated and dropped them off at our sponsor, <a target="_blank" href="http://www.warnercustom.com/">Warner Custom Coating</a>’s, facility. We originally wanted to have the robot painted white with an accent of black, however due to the painting schedule, we decided to go with blue accented with black.
+          </p>
+          <h2>Photos</h2>
+          <p class="blog-photo-section">
+            <img class="blog-photo" src="img/blog/pre-powder-coat-1.jpg" alt="Image not found. Please try reloading.">
+            <img class="blog-photo" src="img/blog/pre-powder-coat-2.jpg" alt="Image not found. Please try reloading.">
+            <img class="blog-photo" src="img/blog/pre-powder-coat-3.jpg" alt="Image not found. Please try reloading.">
+          </p>
+        </div>
+      </div>
+      <div id="update-11" class="work-exp hideme">
+        <div class="tag-project">UPDATE 11</div>
+        <div class="title-project">DRIVETRAIN AND LIFT ASSEMBLIES COMPLETE</div>
+        <div class="project-date">FEB 10, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            Over the past week and a half, the team has been hard at work assembling the sheet metal components so that the various assemblies can be sent to get powder coated. It has taken a while to complete these assemblies, as some in-house machining needed to be done to a few parts before complete assemblies could be done. For example, our bearing blocks required a hole to be drilled through its cross section, which could not have be done through the laser cutting process used in fabricating the sheet metal.
+          </p>
+          <h2>Photos</h2>
+          <p class="blog-photo-section">
+            <img class="blog-photo" src="img/blog/drivetrain-lift-assembly-1.jpg" alt="Image not found. Please try reloading.">
+            <img class="blog-photo" src="img/blog/drivetrain-lift-assembly-2.jpg" alt="Image not found. Please try reloading.">
+          </p>
+        </div>
+      </div>
+      <div id="update-10" class="work-exp hideme">
+        <div class="tag-project">UPDATE 10</div>
+        <div class="title-project">ELEVATOR COMPONENTS ARE IN</div>
+        <div class="project-date">FEB 02, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            Today has been an exciting day. Not only did we receive the Protocase components this morning (see the previous blog for more on this), Dhruv, Shubham, and I (Utkarsh) took a trip to Guelph to pick up our elevator sheet metal components from our sponsor, <a target="_blank" href="https://integrated-metal.com/">Integrated Metal Products</a>. And while we were there, we also got a tour of there facility, which is equipped with state of the art machines for laser cutting, metal bending, and welding.
+          </p>
+          <h2>Photos</h2>
+          <p class="blog-photo-section">
+            <img class="blog-photo" src="img/blog/integrated-metal-factory.jpg" alt="Image not found. Please try reloading.">
+            <img class="blog-photo" src="img/blog/metal-parts-1.jpg" alt="Image not found. Please try reloading.">
+            <img class="blog-photo" src="img/blog/metal-parts-2.jpg" alt="Image not found. Please try reloading.">
+          </p>
+        </div>
+      </div>
+      <div id="update-09" class="work-exp hideme">
+        <div class="tag-project">UPDATE 9</div>
+        <div class="title-project">DRIVETRAIN SHEET METAL IS IN</div>
+        <div class="project-date">FEB 02, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            Our Protocase shipment just arrived this morning. We have been waiting for this day for awhile now, as having the sheet metal means that assembly of our robot can commence.
+          </p>
+          <p>
+            We are glad to see how fast our sponsor, <a target="_blank" href="https://www.protocase.com/">Protocase</a>, was able to get us the parts once we had approved the tolerances added by them. Additionally, the parts provided meet the specifications we had asked for and exemplify the quality we were looking for.
+          </p>
+          <h2>Photos</h2>
+          <p class="blog-photo-section">
+            <img class="blog-photo" src="img/blog/protocase-parts.jpg" alt="Image not found. Please try reloading.">
+          </p>
+        </div>
+      </div>
+      <div id="update-08" class="work-exp hideme">
+        <div class="tag-project">UPDATE 8</div>
+        <div class="title-project">MANUFACTURING UPDATE</div>
+        <div class="project-date">JAN 31, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            Over the last week, we have been in the machine shop manufacturing four unique drivetrain and elevator parts that are not being outsourced to a sponsor's facility. The drivetrain components mainly consist of shafts that will be used in the three gearboxes while the elevator components consist of the elevator supports and the main lift shaft.
+          </p>
+          <p>
+            Prior to coming to the machine shop, detailed drawings were created as shown below to allow for accurate part creation.
+          </p>
+          <p class="blog-photo-section">
+            <img class="blog-photo" src="img/blog/manufacturing-shaft-drawing.png" alt="Image not found. Please try reloading.">
+          </p>
+          <p>
+            Below is a picture of Shubham using the lathe to put retaining ring grooves in a shaft using the SGI039D5 grooving insert provided by our sponsor <a target="_blank" href="http://www.thinbit.com/">Kaiser Tool Company</a>.
+          </p>
+          <h2>Photos</h2>
+          <p class="blog-photo-section">
+            <img class="blog-photo" src="img/blog/inhouse-manufacturing-photo.jpg" alt="Image not found. Please try reloading.">
+            <img class="blog-photo" src="img/blog/inhouse-manufacturing-photo-2.jpg" alt="Image not found. Please try reloading.">
+          </p>
+        </div>
+      </div>
+      <div id="update-07" class="work-exp hideme">
+        <div class="tag-project">UPDATE 7</div>
+        <div class="title-project">BATTERIES HAVE ARRIVED</div>
+        <div class="project-date">JAN 25, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            Today we received our batteries and battery chargers from our sponsor, <a target="_blank" href="https://www.batterytender.com/">Deltran Battery Tender</a>. We are using one 12V, 480 LCA Lithium Engine Start Battery to power all the actuators and electronics on our robot, which should allow for a runtime of approximately 1.5 hours based on an average use case.
+          </p>
+          <p>
+            To ensure that our team is able to test for prolonged periods, our sponsor has supplied us with a total of three <a target="_blank" href="http://products.batterytender.com/Batteries/480-CCA-Lithium-Engine-Start-Battery.html">12V, 480 LCA Lithium Engine Start Battery</a> along with two <a target="_blank" href="http://products.batterytender.com/Chargers/Battery-Tender-4-Amp-Power-Tender-Selectable.html">Power Tender 4 Amp Lead Acid & Lithium Chargers</a>.
+          </p>
+          <p>
+            Originally, we were considering the use of lead acid batteries as they are fairly cheap for the large battery capacity required. However, we are thankful for having a sponsorship for our lithium batteries as they allow us to have the same battery capacity but with a 4 times weight reduction. Additionally, lithium batteries are known to provide a consistent voltage for the majority of a discharge cycle, unlike lead acid batteries which drop in voltage as they near the end of a discharge cycle, which results in the requirement of a more complex control strategy.
+          </p>
+          <h2>Photos</h2>
+          <p class="blog-photo-section">
+            <img class="blog-photo" src="img/blog/battery-tender-sponsorship.jpg" alt="Image not found. Please try reloading.">
+          </p>
+        </div>
+      </div>
+      <div id="update-06" class="work-exp hideme fade">
+        <div class="tag-project">UPDATE 6</div>
+        <div class="title-project">3D SCANNING GRACO ULTRA CORDLESS AIRLESS HANDHELD SPRAYER PUMP</div>
+        <div class="project-date">JAN 24, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            For the past week, we have been trying to get a good 3D scan of the pump from our sprayer. We need a good 3D scan of the pump so that we can design the spray platform for the elevator. After a bit of research online, we found a few options for this purpose including <a target="_blank" href="https://itunes.apple.com/us/app/qlone-3d-scanning-solution/id1229460906">Qlone</a> and <a target="_blank" href="https://www.autodesk.com/products/recap/overview">Autodesk ReCap Photo</a>, which both use photogrammetry methods to generate a 3D model using photos/video from a camera.
+          </p>
+          <p>
+            An initial attempt was made to test the Qlone app to scan a matchbox, to see how the results were using a basic object. To do this, we printed the AR mat that the app needs to be able to get accurate measurements of the object, we placed the object on the AR mat, and began scanning the object following the instructions on the screen. As we got a video of the object from all angles, the app was successful in creating a good representation of the object, except it did add a curvature to one of the surfaces. Additionally, at this stage we found out that for us to be able to export the 3D scan to a usable format, we needed to pay the app a substantial amount of money. This lead to us exploring our other option, Autodesk ReCap Photo.
+          </p>
+          <h2>Autodesk ReCap Photo Attempt 1</h2>
+          <p>
+            After installing the educational license of Autodesk ReCap Photo, an initial attempt in scanning the pump was made by rotating the pump in place on top of a table as photos were taken from multiple angles (Autodesk suggests that a photo be taken every 5 degrees for good results). A total of 206 photos were taken of which only 100 could be used, as was found out when uploading the photos to the application. This resulted in the loss of half of the total resolution. Overall, Attempt 1 was a failure and resulted in poor results, as shown below. In fact, it was so poor that we almost gave up on this technique for 3D scanning and were going to manually measure and CAD the pump.
+          </p>
+          <p class="blog-photo-section">
+            <img class="blog-photo" src="img/blog/recap-attempt1-1.png" alt="Image not found. Please try reloading.">
+            <img class="blog-photo" src="img/blog/recap-attempt1-2.png" alt="Image not found. Please try reloading.">
+          </p>
+          <h2>Autodesk ReCap Photo Attempt 2</h2>
+          <p>
+            We however didn't give up and with further research determined that spinning the object is not a good method to generate a good scan as the software struggles to track features as the object moves with respect to the background. So, this time, the pictures were taken from multiple positions as the object remained constant. Additionally, markers were added to the background and to the object to allow the software to have an easier time stitching the pictures together. This resulted in results that were confidence inspiring but not good enough to use for the 3D model, as shown below.
+          </p>
+          <p class="blog-photo-section">
+            <img class="blog-photo" src="img/blog/recap-attempt2-1.png" alt="Image not found. Please try reloading.">
+            <img class="blog-photo" src="img/blog/recap-attempt2-2.png" alt="Image not found. Please try reloading.">
+          </p>
+          <h2>Autodesk ReCap Photo Attempt 3</h2>
+          <p>
+            Once again, after further research, it was determined that lighting and quality of images has a huge role in the end result. As such, this time an attempt was made to get the lighting correct, and a better camera was used to take the pictures. Additionally, the part was covered in <a target="_blank" href="https://www.walmart.ca/en/ip/dr-scholls-odour-destroyers-all-day-deodorant-spray/6000016946615">Dr. Scholl's® Odour Destroyers® All Day Deodorant Spray Powder</a> to ensure that the metallic portions of the part would not reflect light and to enhance the features of the part for the photos. All of this resulted in us getting a pretty good 3D model which we can use to complete our lift design. Our setup and results are shown below. There are a few blemishes in the 3D scan, which we are planning to clean up in our CAD software.
+          </p>
+          <p class="blog-photo-section">
+            <img class="blog-photo" src="img/blog/recap-attempt3-1.png" alt="Image not found. Please try reloading.">
+            <img class="blog-photo" src="img/blog/recap-attempt3-2.png" alt="Image not found. Please try reloading.">
+            <img class="blog-photo" src="img/blog/recap-attempt3-3.png" alt="Image not found. Please try reloading.">
+          </p>
+          <p>
+            <iframe width="100%" height="500" src="//www.youtube.com/embed/oJMWmqkl0gw" frameborder="0" allowfullscreen></iframe>
+          </p>
+        </div>
+      </div>
+      <div id="update-05" class="work-exp hideme">
+        <div class="tag-project">UPDATE 5</div>
+        <div class="title-project">SLAMTEC RPLIDAR A2-M8 UNBOXING</div>
+        <div class="project-date">JAN 21, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            We've just received our <a target="_blank" href="https://www.slamtec.com/en/Lidar">RPLIDAR A2-M8</a> from <a target="_blank" href="https://www.slamtec.com/">SLAMTEC</a> based out of Shanghai, China. Logically, the first thing to do upon receiving such a nice package is to film an unboxing video, so that's what we did. We believe that it will be of some benefit to those interested in purchasing this LIDAR.
+          </p>
+          <p>
+            In the unboxing video below, we reveal the contents of the package which include:
+            <ul>
+              <li>1 x RPLIDAR A2-M8</li>
+              <li>1 x Adapter (5 pins: PWM, GND, TX, RX, 5V) to Micro-USB and 5V power input</li>
+              <li>1 x Quick Start Guide</li>
+              <li>1 x Power Adapter</li>
+            </ul>
+          </p>
+          <p>
+            The RPLIDAR A2-M8 has the following specifications:
+            <ul>
+              <li>Width: 76mm</li>
+              <li>Height: 41mm</li>
+              <li>Weight: 190g</li>
+              <li>Measurement Frequency: 4000 samples/sec</li>
+              <li>Typical Spinning Frequency: 600 RPM</li>
+              <li>Scanning Range: 8m</li>
+            </ul>
+          </p>
+          <h2>Video</h2>
+          <p>
+            <iframe width="100%" height="500" src="//www.youtube.com/embed/Sd2ZyZxowMQ" frameborder="0" allowfullscreen></iframe>
+          </p>
+        </div>
+      </div>
+      <div id="update-04" class="work-exp hideme">
+        <div class="tag-project">UPDATE 4</div>
+        <div class="title-project">SPRAY PAINTING TEST SESSION #1</div>
+        <div class="project-date">JAN 12, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            For a long time now, we have been debating whether we should be spraying paint or whether we should just continue using water with food coloring. We had originally decided to test using water with food coloring due to the fact that spraying paint at the symposium in March would not be feasible. This is because paint particles can be an irritant for people, which would require for a paint booth to be setup with proper ventilation. However, after testing with foam and water, we found that the "paint" quality was never going to be desirable as water doesn't behave anything like paint.
+          </p>
+          <p>
+            Today, we decided to give actual paint a try. Using the <a target="_blank" href="http://www.graco.com/us/en/products/contractor/ultra-cordless-airless-handheld.html">Graco Ultra Cordless Airless Handheld Airless Sprayer</a>, we found that paint ionizes better, sticks better to the vertical surface, and has no bubbles forming due to saturation. We will be continuing to test spraying paint over the next week to get a better idea of the motion we need to recreate using our machine.
+          </p>
+          <p>
+            In addition to testing the paint quality, we decided to use this as an opportunity to determine the current draw characteristics of the paint spray gun we are going to be incorporating into our design. After reading the label on the spray gun, which gave the requirements of 20 V and 25 A, we were worried about how we would provide such power via our 12 V battery. From our tests, we found that the spray gun requires approximately 10 A @ 20 V at steady state in its low to medium pressure settings and approximately 17 A @ 20 V at steady state in its high-pressure setting. Additionally, it was determined that the transient (peak) currents ranged from 20 A to 30 A in all pressure settings.
+          </p>
+          <p>
+            This testing has allowed us to determine that if the spray gun is run at low to medium settings, the 12 V to 20 V conversion should be possible given our cost constraints. Over the next few weeks, we will be testing the spray gun's performance at 12 V, as this will allow us to significantly reduce the complexity of the power system.
+          </p>
+          <h2>Video</h2>
+          <p>
+            <iframe width="100%" height="500" src="//www.youtube.com/embed/yKH1hgM80bQ" frameborder="0" allowfullscreen></iframe>
+          </p>
+        </div>
+      </div>
+      <div id="update-03" class="work-exp hideme">
+        <div class="tag-project">UPDATE 3</div>
+        <div class="title-project">DRIVETRAIN ENCODERS WORKING</div>
+        <div class="project-date">JAN 08, 2018</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Summary</h2>
+          <p>
+            We received our encoders from <a target="_blank" href="http://www.industrialencoder.ca/">Industrial Encoder Corporation</a> a little while ago. Specifically, we received three <a target="_blank" href="http://www.industrialencoder.ca/downpdf.php?id=32">IH 581 encoders</a>, which will be used to give us accurate odometry for our three-wheel omni wheel drivetrain. These encoders are great for this application as they offer an high number of pulses per revolution (our ones have a resolution of 512 PPR), can withstand large velocities, and offer good build quality.
+          </p>
+          <p>
+            Since we have also received majority of our electronics at this point, we have started interfacing our sensors with our development board. One of the first sensors we have tested is our encoders. We connected our encoders to the HERO development board using CAN via the Talon SRX Encoder Breakout in combination with the Talon SRX motor controller. We have started to receive measurements from the sensor as shown in the video below.
+          </p>
+          <h2>3D CAD Model</h2>
+          <p class="blog-photo-section">
+            <img class="blog-photo" src="img/blog/drivetrain.png" alt="Image not found. Please try reloading.">
+          </p>
+          <h2>Video</h2>
+          <p>
+            <iframe width="100%" height="500" src="//www.youtube.com/embed/59EYa1CqxUQ" frameborder="0" allowfullscreen></iframe>
+          </p>
+        </div>
+      </div>
+      <div id="update-02" class="work-exp hideme fade">
+        <div class="tag-project">UPDATE 2</div>
+        <div class="title-project">CTR ELECTRONICS SPONSORSHIP</div>
+        <div class="project-date">DEC 28, 2017</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>Company Overview</h2>
+          <p>
+            <a href="https://www.ctr-electronics.com/" target="_blank">Cross The Road (CTR) Electronics</a> was founded by Mike Copioli and Omar Zrien in 2006. Their goal is to provide robust embedded solutions for various robotic and control applications. They have successfully designed products on multiple processor architectures while incorporating various I/O capabilities and communication protocols including CAN bus, Ethernet, I2C, SPI, and USB (host and device). Their designs are unique, durable, and cost effective and have been used by customers worldwide. Whether your needs involve software or hardware - their intent is to provide creative and durable solutions that meet your needs.
+          </p>
+          <h2>Sponsorship</h2>
+          <p>
+            We are thankful to be sponsored by CTR Electronics! Today we received a shipment containing the core components for our electrical system including the HERO Microcontroller, Power Distribution Panel, and the Talon SRX motor controllers. The out of the box CAN compatibility offered by all the components we received will allow us to bring up our system much faster, allowing us to focus on the software aspects of our system much earlier. Additionally, the Power Distribution Panel will allow us to power the many electrical components from our 12V battery in a safe and organized manner.
+          </p>
+          <h2>What's Next?</h2>
+          <p>
+            Over the next few weeks we will be wiring all our components to allow us to conduct a preliminary test of all the individual electrical components and the entire electrical system. During this time, we will also test the software libraries we have been researching and make changes as required. Additionally, we will be determining the best communication method between the NVIDIA Jetson TX1 and the HERO development board by testing various communication protocols such as SPI, Serial, UART, etc.
+          </p>
+          <h2>Photos</h2>
+          <p class="blog-photo-section">
+            <img class="blog-photo" src="img/blog/ctr-electronics-sponsorship-1.png" alt="Image not found. Please try reloading.">
+            <img class="blog-photo" src="img/blog/ctr-electronics-sponsorship-2.png" alt="Image not found. Please try reloading.">
+          </p>
+        </div>
+      </div>
+      <div id="update-01" class="work-exp hideme">
+        <div class="tag-project">UPDATE 1</div>
+        <div class="title-project">PROTOTYPE BUILT</div>
+        <div class="project-date">NOV 15, 2017</div>
+        <div class="spacer"></div>
+        <div class="description">
+          <h2>General Overview</h2>
+          <p>
+            We needed a proof-of-concept so that we could get this project rolling. The MIST team came together and brainstormed different approaches that can be taken to achieving an autonomous wall painting robot. After several weeks of research and collaboration, the team decided to build a ground-based autonomous solution that uses a cascade lift and paint sprayer combination to achieve autonomous wall painting.
+          </p>
+          <h2>Mechanical Design</h2>
+          <p>
+            In terms of mechanical design, we wanted to build a elevator lift system to prove that we can control vertical motion. We also wanted to automate the paint spraying mechanism such that no human interaction is required in operating the prototype. First, the prototype was designed in SolidWorks. Then, certain parts were 3D printed while other parts were machined out of wood pieces.
+          </p>
+          <h2>Electrical Design</h2>
+          <p>
+            In terms of electrical design, we had to interface a couple of components together. We used an Arduino board to implement our paint spraying motion profile, a DC motor to power the elevator lift, and a servo motor to control the actuation of the paint spray gun. Using a multi-source power supply, the servo motor was powered up on a 5V line while the DC motor was powered up on a 8V line, while the Arduino was powered from our laptop.
+          </p>
+          <h2>Software Design</h2>
+          <p>
+            In terms of software design, we implemented some simple Arduino code that allowed us to set a motion profile of vertical motion using the serial monitor as well as allowing us to dynamically control the actuation of the paint spray gun.
+          </p>
+          <h2>Demo</h2>
+          <p>
+            <iframe width="100%" height="500" src="//www.youtube.com/embed/xzEULNF5hmc" frameborder="0" allowfullscreen></iframe>
+          </p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <footer class="footer light">
+    <div class="footer-container">
+      <div id="contact" class="title one hideme fade">CONTACT US</div>
+      <div class="spacer"></div>
+      <div class="title two hideme fade">Feel free to reach out to us!</div>
+      <form action="https://formspree.io/mistlabs@gmail.com" class="contactForm" method="post">
+        <div class="bay form-horizontal">
+          <div class="form-section">
+            <input class="span9" type="text" name="name" placeholder="FULL NAME">
+          </div>
+          <div class="form-section">
+            <input class="span9" type="text" name="email" placeholder="YOUR EMAIL">
+          </div>
+          <div class="form-section">
+            <textarea class="span9" name="message" rows="12" placeholder="TYPE MESSAGE"></textarea>
+          </div>
+          <div class="form-section">
+            <button type="submit" class="contour-btn green">SEND MESSAGE</button>
+          </div>
+        </div>
+      </form>
+      <div class="contact">
+        <ul class="icons hideme fade">
+          <li><a class="facebook" href="https://www.facebook.com/trymist/" target="_blank"></a></li>
+          <li><a class="youtube" href="https://www.youtube.com/channel/UC02G7j0xefY8360rPNcxE4g" target="_blank"></a></li>
+        </ul>
+        <div class="copy-right hideme fade">© 2018 MIST. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#blog" class="scrollup">^</a>
+
+  <!-- CSS -->
+  <link rel="preload" href="css/dist/home.min.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="css/dist/home.min.css"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"></noscript>
+  <script>!function(e){"use strict";var t=function(t,n,r){function o(e){return i.body?e():void setTimeout(function(){o(e)})}function a(){d.addEventListener&&d.removeEventListener("load",a),d.media=r||"all"}var l,i=e.document,d=i.createElement("link");if(n)l=n;else{var s=(i.body||i.getElementsByTagName("head")[0]).childNodes;l=s[s.length-1]}var u=i.styleSheets;d.rel="stylesheet",d.href=t,d.media="only x",o(function(){l.parentNode.insertBefore(d,n?l:l.nextSibling)});var f=function(e){for(var t=d.href,n=u.length;n--;)if(u[n].href===t)return e();setTimeout(function(){f(e)})};return d.addEventListener&&d.addEventListener("load",a),d.onloadcssdefined=f,f(a),d};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(e){if(e.loadCSS){var t=loadCSS.relpreload={};if(t.support=function(){try{return e.document.createElement("link").relList.supports("preload")}catch(e){return!1}},t.poly=function(){for(var t=e.document.getElementsByTagName("link"),n=0;n<t.length;n++){var r=t[n];"preload"===r.rel&&"style"===r.getAttribute("as")&&(e.loadCSS(r.href,r),r.rel=null)}},!t.support()){t.poly();var n=e.setInterval(t.poly,300);e.addEventListener&&e.addEventListener("load",function(){e.clearInterval(n)}),e.attachEvent&&e.attachEvent("onload",function(){e.clearInterval(n)})}}}(this);</script>
+
+  <!-- JavaScript -->
+  <script defer src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script defer src="js/dist/blog.min.js"></script>
+</body>
+</html>

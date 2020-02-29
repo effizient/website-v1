@@ -1,0 +1,19 @@
+{
+  "name": "mist-website",
+  "version": "1.0.0",
+  "description": "Mobile Intelligent Spraying Technologies",
+  "author": "MIST",
+  "homepage": "https://trymist.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhamodi/MIST-web.git"
+  },
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-autoprefixer": "^3.0.0",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-uglify": "^3.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
