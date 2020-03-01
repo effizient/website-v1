@@ -68,8 +68,8 @@
 }
 .servicebx
 {
-    width:400px;
-    height: 250px;
+    width:350px;
+    height: 210px;
     border-radius: 30px;
     margin: 10px;
     position: relative;
@@ -77,8 +77,8 @@
 }
 .servicebx img
 {
-    width: 400px;
-    height: 250px;
+    width: 350px;
+    height: 210px;
     border-radius: 30px;
 }
 
