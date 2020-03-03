@@ -869,8 +869,12 @@ html, body {
   background-size: 56px 56px;
 }
 .contact .icons .twitter {
-  background: url(/img/youtube.png) no-repeat center;
+  background: url(/img/twitter.png) no-repeat center;
   background-size: 56px 56px;
+}
+.contact .icons .linkedin {
+  background: url(/img/linkdin.png) no-repeat center;
+  background-size: 65px 56px;
 }
 .contact .icons li a:hover {
   opacity: 1;
@@ -1173,6 +1177,7 @@ html, body {
   .contact .icons .youtube {background-size: 55px 55px;}
   .contact .icons .facebook {background-size: 48px 48px;}
   .contact .icons .twitter {background-size: 48px 48px}
+  .contact .icons .linkedin {background-size: 48px 48px}
 }
 
 /* Small Mobile Screens */
